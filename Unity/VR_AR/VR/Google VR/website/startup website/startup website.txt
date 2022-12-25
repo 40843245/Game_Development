@@ -1,0 +1,61 @@
+In this article, I will give you some links about Goolge VR 
+,the relationship between these following links, 
+and introduction to these links.
+
+----------------------------------
+Links:
+(1)https://arvr.google.com/
+(2)https://arvr.google.com/cardboard/
+(3)https://developers.google.com/cardboard
+(4)https://developers.google.com/cardboard/develop
+(5)https://developers.google.com/cardboard/develop/unity/quickstart
+(6)https://arvr.google.com/cardboard/get-cardboard/
+(7)https://play.google.com/store/search?q=cardboard%20apps&c=apps&hl=en_US
+(8)https://arvr.google.com/vr/
+
+----------------------------------
+Introduction to links:
+
+For (1)https://arvr.google.com/
+it is the main page of Google VR.
+
+For (2)https://arvr.google.com/cardboard/
+it is the main page of Google VR cardboard.
+
+For (3)https://developers.google.com/cardboard
+the introduction to cardboard and development of cardboard.
+
+For (4)https://developers.google.com/cardboard/develop
+the quickstart of Google VR development.
+
+For (5)https://developers.google.com/cardboard/develop/unity/quickstart
+the quickstart of Google VR development with Unity.
+
+For (6)https://arvr.google.com/cardboard/get-cardboard/
+buy the VR cardboard.
+
+For (7)https://play.google.com/store/search?q=cardboard%20apps&c=apps&hl=en_US
+Download page of app for VR cardbaord (in Google Play).
+
+----------------------------------
+Relationship between links.
+For link (3)->(4),
+click "Get Started" button.
+
+For link (4)->(5),
+Select Unity option (at the bottom).
+
+For link (2)->(3),
+click "START DEVELOPING" link (at the bottom, the title in the group is "Join the Fold").
+
+For link (2)->(6),
+click "FIND A VIEWER" link (the title in the group is "Get A Viewer").
+
+For link (2)->(7),
+click "GET APPS" link (there is Google Play Icon nearby, the title in the group is "Got Cardboard?").
+
+For link (1)->(8),
+click "Learn more about VR" button (a blue button with white text, the title in the group is "Virtual Reality").
+
+For link (8)->(7),
+click "Learn more" link in cardboard group (at bottom right).
