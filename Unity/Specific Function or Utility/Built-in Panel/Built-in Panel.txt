@@ -1,0 +1,48 @@
+In this article, I will teach you:
+How to open built-in panel in Unity Editor and in your device (Andriod or IOS)?
+
+----------------------------------------
+How to open built-in panel in Unity Editor?
+
+Case 1:
+For Unity Editor:
+In Unity Editor, the macro UNITY_EDITOR is defined and 
+the UnityEditor namespace is defined.
+
+You can call the method in the class UnityEditor.EditorUtility.
+The methods are about built-in panels.
+
+UnityEditor.EditorUtility.OpenFilePanel: 
+Open panel and you can select any file, NOT folders.
+
+UnityEditor.EditorUtility.OpenFilePanelWithFilters:
+Open panel and you can select the specific file extension which corresponds to the given pararameter.
+
+UnityEditor.EditorUtilityOpenFolderPanel:
+Open panel and you can select folders, NOT files.
+
+Case 2:
+For Unity Editor, Andriod platform and IOS platform.
+You can install the "NativeFilePicker" Plugin
+(provided by yasirkula, you can refer the following link (given in reference section [ref])).
+
+You can also use "Simplefilebrowser" Plugin
+(provided by yasirkula, you can refer the following link (given in reference section [ref])).
+
+----------------------------------------
+P.S.
+There are lots of plugins in Unity Asset store.
+I just list these two since they are common, free and easy to use.
+
+----------------------------------------
+NOTE:
+Check the version, including OS version of device for developement and for running and Unity Editor Version 
+before using the external plugin to avoid the bugs in package or project or compiler error saying the namespace can NOT be used etc.
+
+----------------------------------------
+[ref]
+(1)https://docs.unity3d.com/ScriptReference/EditorUtility.html
+
+(2)https://github.com/yasirkula/UnityNativeFilePicker
+
+(3)https://github.com/yasirkula/UnitySimpleFileBrowser
