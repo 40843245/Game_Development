@@ -1,0 +1,26 @@
+In this article, I will teach you:
+How to build an Unity project as packages in Unity.
+
+-----------------------------
+The main steps:
+Step 1:
+In Unity project, select File -> Build Settings.
+Step 2:
+Add the scene for build (if NOT added).
+
+Step 3:
+Check the setting in Edit -> Project Settings-> Player-> <Platform>
+
+Step 4:
+Go back to File -> Build Settings.
+Select platform for build. 
+(If you don't want to build with your current used platform, you must switch platform by clicking "Switch Platform" button.)
+
+Step 5:
+Check the settings for build.
+
+Step 6:
+Click "Build" or "Build And Run" button.
+
+That's done. You just have to wait a while.
+
