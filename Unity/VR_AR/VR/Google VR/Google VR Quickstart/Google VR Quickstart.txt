@@ -1,0 +1,140 @@
+In this video, I will teach you:
+Simple Game Development with Unity.
+
+Here, I really appreciate to following link 
+since I refer the following link (given in reference section [ref]).
+
+---------------------------
+P.S.
+It is very important!!! Please pay a lot of attention before startup.
+
+---------------------------
+Before startup,
+(1)Please check the requirements.
+(2)Please check the following actions can be done in Unity.
+(3)Please do the following prepartions.
+After that, see Andriod configuration settings or IOS configuration settings according to your device system.
+Here, I just write Andriod configuration settings.
+(For IOS configuration settings, see the following link (given in reference section [ref]).)
+
+---------------------------
+Requirements:
+(1.1)Software Requirements:
+(1.1.1)Unity 2020.3.36f1 or later
+and make sure include Andriod and IOS build support during installation.
+(1.1.2)Git must be installed and the git executable must be on the PATH environment variable.
+(I guess its purpose is you can download a package via the option "adding a package from git URL" in Package Manager in Unity.)
+
+(1.1.3)Needed Andriod device version for build package:
+At least Andriod 7.0 'Nougat' (Andriod level 24).
+At least Andriod level 31.
+You can refer the following link for more details.
+(given in reference section [ref]).
+
+(1.2)Hardware Requirements:
+(1.2.1)The device that you want to use.
+If you want to build the project as package in Unity to Andriod, please prepare an Andriod smartphone.
+If you want to build the project as package in Unity to IOS, please prepare an IOS smartphone.
+And so on.
+
+---------------------------
+Actions:
+(2.1)Build:
+You can build the Unity project as package to your device and 
+run the package in your device without any error and exception (and of course, also check there is no any bug in the package).
+
+(2.2)Add package via git:
+You can add package externally via the option "adding a package from git URL" in Package Manager in Unity.
+
+(2.3)Open Scene (Most people will NOT stuck in it)
+You can open scenes and switch into different scenes in same project.
+
+---------------------------
+Preparation:
+(3.1)create a new empty 3D Unity project or open it.
+(I referred to create since it's empty and more easily to debug for me)
+P.S.
+NOTE that
+You must create 3D Unity project or it won't work properly.
+3D Unity project!!!
+3D Unity project!!!
+3D Unity project!!!
+
+(3.2)Add and import "Google Cardboard XR Plugin for Unity" package in Package Manager in Unity
+via pasting "https://github.com/googlevr/cardboard-xr-plugin.git" in text entry field of "add package from git URL"
+in Package Manager in Unity.
+
+(3.3)Open the sample scene to take a look at its example
+in the folder .../Assets/Samples/Google Cardboard/<version>/Hello Cardboard/...
+
+(3.4)Switch the platform in build setting in Unity.
+
+---------------------------
+Configuring Andriod Settings:
+(4.1.1)Go to Edit->Project Setting->Player-> <Platform> -> Resolution and Presentation section.
+i.e.
+In Unity, find the top menu bar and select Edit-> Project Settings.
+Select Player on the left.
+Select your platform you want to use.
+Select Resolution and Presentation
+(4.1.2)Set the Default Orientation to Landscape Left or Landscape Right.
+(4.1.3)Disable Optimized Frame Pacing.
+
+(4.2.1)Go to Edit->Project Setting->Player-> <Platform> -> Other Settings section.
+(4.2.2)Choose OpenGLES2, OpenGLES3, or Vulkan, or any combination of them (such as OpenGLES3+Vulkan )in Graphics APIs.
+(4.2.3)Select Android 7.0 'Nougat' (API level 24) or higher in Minimum API Level.
+(4.2.4)Select API level 31 or higher in Target API Level.
+(4.2.5)Select IL2CPP in Scripting Backend.
+(4.2.6)Select desired architectures by choosing ARMv7, ARM64, or both in Target Architectures.
+(4.2.7)Select Require in Internet Access.
+(4.2.8)Specify your company domain under Package Name.
+
+NOTE:
+If Vulkan was selected as Graphics API:
+Uncheck Apply display rotation during rendering checkbox in Vulkan Settings.
+In this case, if the Unity version is 2021.2 or above, Select ETC2 in Texture compression format.
+
+NOTE: 
+It's possible to use a lower minimum API level by changing rendering API compatibility. 
+For more details on the following link (given in reference section [ref]).
+
+NOTE: In case you are experiencing issues when selecting Vulkan as the graphics API, 
+check the Development Build box in Build Settings and analyze the runtime logs looking for driver compatibility errors.
+
+(4.3.1)Go to Edit->Project Setting->Player-> <Platform> -> Publishing Settings section.
+
+(4.3.2)
+Add the following lines to the dependencies section of Assets/Plugins/Android/mainTemplate.gradle:
+  implementation 'androidx.appcompat:appcompat:1.4.2'
+  implementation 'com.google.android.gms:play-services-vision:20.1.3'
+  implementation 'com.google.android.material:material:1.6.1'
+  implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
+
+(4.3.3)
+Add the following lines to Assets/Plugins/Android/gradleTemplate.properties:
+  android.enableJetifier=true
+  android.useAndroidX=true
+  
+Note: The dependencies needed may change between versions. 
+If you want to use a version different from the most recent release, 
+take a look at the history of the dependencies section in sdk/build.gradle of the Cardboard SDK repository.
+
+(4.4.1)Go to Edit->Project Setting->Player-> <Platform> -> Publishing Settings section.
+(4.4.2)Select Cardboard XR Plugin under Plug-in Providers.
+
+---------------------------
+Build And Run
+(5.1) Build the project as package.
+(5.2) Run the package in your device by clicking icon of the package.
+
+---------------------------
+
+P.S.
+Since I only have an Andriod smartphone, 
+I've only tried an VR cardboard for Andriod device.
+
+For the configuration of iOS project settings, you can visit the following link.
+(given in reference section [ref]).
+
+[ref]
+https://developers.google.com/cardboard/develop/unity/quickstart
