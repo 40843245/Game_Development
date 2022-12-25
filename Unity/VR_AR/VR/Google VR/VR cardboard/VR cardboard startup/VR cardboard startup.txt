@@ -1,0 +1,35 @@
+In this article, I will teach you:
+How to use a Google VR cardboard?
+(including
+How to connect your phone to a Google VR cardboard?
+How to configure settings of Google VR cardboard after connection?)
+
+--------------------------
+P.S.
+it is very important, please pay a lot of attention before startup.
+
+--------------------------
+Before startup:
+(1)Check the hardware requirement.
+(2)Check the Google VR cardboard app is installed on your device.
+
+--------------------------
+Hardware requirement:
+(1.1)Your device (the Google VR only supports Andriod and IOS).
+(1.2)Google VR cardboard.
+You can buy it in the following link (given in the reference section [ref]).
+
+--------------------------
+Action:
+(2.1)Run the package in your device. 
+(You must build it before running) 
+(You can refer the previous article, the link in previous article or find solutions with Google Chrome)
+(2.2)Put your device to the Google VR cardboard.
+(There are steps-by-steps tutorial representing with figures on Google VR cardboard)
+
+[ref]
+Buy a Google VR cardboard.
+https://arvr.google.com/cardboard/get-cardboard/
+
+Download Google VR cardboard app.
+https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo&hl=en_US
