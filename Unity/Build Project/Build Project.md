@@ -1,7 +1,10 @@
+# Build a Unity project in Unity
+## Objectvie
+
 In this article, I will teach you:
 How to build an Unity project as packages in Unity.
 
------------------------------
+## Step
 The main steps:
 Step 1:
 In Unity project, select File -> Build Settings.
@@ -24,5 +27,13 @@ Click "Build" or "Build And Run" button.
 
 That's done. You just have to wait a while.
 
+## Figure
 Here, these figures illustrates the steps of building Unity Projects.
+
+For step 1:
+  
+https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_3.png
+  
+ For step 2 to 6:
+ 
 
