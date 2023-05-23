@@ -35,5 +35,10 @@ For step 1:
 https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_3.png
   
  For step 2 to 6:
- 
+  
+ https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_1.png
+  
+ https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_1.png
 
+
+  
