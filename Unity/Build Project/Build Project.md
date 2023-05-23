@@ -40,5 +40,8 @@ https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Scr
   
  https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_1.png
 
-
+## Additional References
+Unity Manual Docs:
+  
+https://docs.unity3d.com/Manual/BuildSettings.html
   
