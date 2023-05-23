@@ -4,7 +4,7 @@ Step 1:
 
     Visit the website
 
-    https://assetstore.unity.com/
+https://assetstore.unity.com/
     
 Step 2:
 
