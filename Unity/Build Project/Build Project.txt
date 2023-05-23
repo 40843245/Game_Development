@@ -24,3 +24,5 @@ Click "Build" or "Build And Run" button.
 
 That's done. You just have to wait a while.
 
+Here, these figures illustrates the steps of building Unity Projects.
+
