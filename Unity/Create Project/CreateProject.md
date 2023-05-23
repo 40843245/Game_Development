@@ -50,7 +50,12 @@ Step 3:
 
 ## Figure
 For step 1 :
+
+https://github.com/40843245/Game_Development/blob/main/Unity/Create%20Project/createNewProject_1.png
+
 For step 2 to 7 :
+
+https://github.com/40843245/Game_Development/blob/main/Unity/Create%20Project/createNewProject_2.png
 
 ## Addition References
 
