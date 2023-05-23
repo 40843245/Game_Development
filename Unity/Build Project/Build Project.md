@@ -2,7 +2,27 @@
 ## Objectvie
 
 In this article, I will teach you:
+
 How to build an Unity project as packages in Unity.
+
+## Prequisite
+
+Install and Update them to latest version:
+
+    corresponding packages and modules of the platform for building.
+    
+ ### Required modules
+ #### Android
+      
+      Android SDK
+      Android JDK
+      Android NDK
+ 
+ 
+   
+ For the list of corresponding packages and modules, see the references in Additional Reference section.
+ 
+ 
 
 ## Step
 The main steps:
@@ -41,7 +61,10 @@ https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Scr
  https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Screenshot/buildingProjects_settings_1.png
 
 ## Additional References
+### Basic concept of Build Project of all platform
 Unity Manual Docs:
   
 https://docs.unity3d.com/Manual/BuildSettings.html
   
+ ### Setup for Build Android Project
+https://docs.unity3d.com/Manual/android-build-settings.html
