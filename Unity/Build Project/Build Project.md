@@ -14,15 +14,14 @@ Install and Update them to latest version:
  ### Required modules
  #### Android
       
-      Android SDK
-      Android JDK
+      Android SDK , 
+      Android JDK ,
       Android NDK
+      etc
  
+ You can manually to install the required module, but you can adopt a simpler way -- install them with Unity Editor and NO NOTHING.
  
-   
- For the list of corresponding packages and modules, see the references in Additional Reference section.
- 
- 
+ For the list of corresponding packages and modules, see the references in Additional Reference section.    
 
 ## Step
 The main steps:
@@ -65,6 +64,15 @@ https://github.com/40843245/Game_Development/blob/main/Unity/Build%20Project/Scr
 Unity Manual Docs:
   
 https://docs.unity3d.com/Manual/BuildSettings.html
-  
- ### Setup for Build Android Project
+
+### Setup for Build on Android 
 https://docs.unity3d.com/Manual/android-build-settings.html
+
+### Setup for Build on UWP (Universal Window Platform)
+https://docs.unity3d.com/Manual/windowsstore-buildsettings.html
+    
+### Setup for Build on Other Platform
+    
+Hyperlinks on the website.
+    
+https://docs.unity3d.com/Manual/BuildSettings.html
