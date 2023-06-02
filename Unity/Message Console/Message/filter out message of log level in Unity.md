@@ -34,6 +34,32 @@ To fetch the default logger, just access
 #### Result
 ![image](https://github.com/40843245/Game_Development/assets/75050655/6b3535f4-9550-4fe8-a4dd-ed5dda901e91)
 
+### Example 2
+#### Code
+        
+        ILogger logger = Debug.unityLogger;
+      logger.filterLogType=LogType.Exception;
+      //logger.filterLogType=~(LogType.Error | LogType.Log);
+
+      logger.Log("Yes", "Hello");
+      logger.LogWarning("Yes", "Hello");
+      logger.LogError("Yes", "Hello");
+
+      logger.logEnabled=false;
+
+      logger.Log("No", "Hello");
+      logger.LogWarning("No", "Hello");
+      logger.LogError("No", "Hello");
+
+      logger.logEnabled=true;
+
+      logger.Log("Ok", "Hello");
+      logger.LogWarning("Ok", "Hello");
+      logger.LogError("Ok", "Hello");
+   
+#### Result
+![image](https://github.com/40843245/Game_Development/assets/75050655/5b6fd209-c0d9-4883-9627-f1b5711ba512)
+
 ## Ref
 From Unity Scripting API,
 
